@@ -3,9 +3,11 @@ import path from 'path';
 
 export  default{
   mode: 'production',
-  entry: './js/dashboard_main.js',
+  entry: {
+    main: path.resolve(__dirname, './js/dashboard_main.js'),
+  },
   output: {
-    path: path.resolve('.', 'public'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
 };
