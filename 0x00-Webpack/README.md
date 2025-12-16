@@ -3,6 +3,7 @@
 * [Webpack documentation](https://webpack.js.org/concepts/)
 * [Webpack beginner guide](https://www.sitepoint.com/webpack-beginner-guide/)
 * [npm-package.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
+* [Debounce documentation on Lodash](https://lodash.com/docs/4.17.21#debounce)
 ---
 ### Learning Objectives :
 * How to setup Webpack for a basic project
