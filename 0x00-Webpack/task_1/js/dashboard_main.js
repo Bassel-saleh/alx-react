@@ -10,9 +10,9 @@ $('body').append('<p>Copyright - ALX</p>');
 
 let count = 0;
 
-function updatecounter() {
+function updateCounter() {
   count++;
   $('#count').html(`${count} clicks on the button`);
 };
 
-button.on('click', _.debounce(updatecounter, 500));
+button.on('click', _.debounce(updateCounter, 500));
