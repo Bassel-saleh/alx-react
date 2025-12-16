@@ -17,4 +17,4 @@ function updatecounter() {
   $('#count').text(`${count} clicks on the button`);
 }
 
-button.on('click', debounce(updatecounter, 300));
+button.on('click', debounce(updatecounter, 1000));
