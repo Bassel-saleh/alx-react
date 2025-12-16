@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import { debounce } from 'lodash';
+import debounce from 'lodash/debounce';
 
 $('body').append('<p>ALX Dashboard</p>');
 $('body').append('<p>Dashboard data for the students</p>');
@@ -17,4 +17,4 @@ function updateCounter() {
   $('#count').html(`${count} clicks on the button`);
 };
 
-button.on('click', _.debounce(updateCounter, 500));
+button.on('click', debounce(updateCounter, 500));
